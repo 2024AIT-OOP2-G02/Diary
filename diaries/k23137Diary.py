@@ -6,7 +6,7 @@ class PimanDiary(AbstractDiary):
         return "2024-11-28"
 
     def get_summary(self):
-        return "Git hub の操作に慣れない．"
+        return "Git hub の操作に慣れない．　"
 
     def get_author(self):
         return "K23137 横山幸咲"
