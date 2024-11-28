@@ -1,7 +1,12 @@
+
+from diaries.DiarySample import DiarySample
+from diaries.PimanDiary import PimanDiary
 from diaries.takaoka_diary import TakaokaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
+    DiarySample(),
+    PimanDiary(),
     TakaokaDiary(),
 ]
 
