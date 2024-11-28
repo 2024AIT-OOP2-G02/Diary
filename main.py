@@ -1,12 +1,14 @@
 from diaries.PimanDiary import PimanDiary
 from diaries.takaoka_diary import TakaokaDiary
 from diaries.KasugaDiary import KasugaDiary
+from diaries.MizunoDiary import MizunoDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     PimanDiary(),
     TakaokaDiary(),
-    KasugaDiary()
+    KasugaDiary(),
+    MizunoDiary(),
 ]
 
 for d in diaries:
