@@ -10,4 +10,4 @@ PullやPushなどGitHubの用語が多くて、全てを理解するのが難し
 """
 
     def get_author(self):
-        return "Kasuga"
+        return "K23033 春日智希"
