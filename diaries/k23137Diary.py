@@ -1,6 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class PimanDiary(AbstractDiary):
+class K23137Diary(AbstractDiary):
 
     def get_date(self):
         return "2024-11-28"
